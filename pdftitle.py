@@ -9,8 +9,6 @@ Created on Thu Jun 21 12:04:36 2018
 import os, re
 from pdfrw import PdfReader
 
-#path = r'/Users/varvarapapazoglou/Desktop/pdfs'
-
 
 def renamePDFwithTitle(path, filename):
     
