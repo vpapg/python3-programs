@@ -26,11 +26,11 @@ def renamePDFwithTitle(path, filename):
             if len(newname)>4:  # if the name is not just ".pdf"
                 if newname[0] == ' ':   # if it starts with space, remove it
                     newname = newname[1:]
-                    if newname[-5] == ' ': # if there's a space before the extension, remove it
-                        newname = newname[:-5]+newname[-4:]
-                        print("[*] NEW NAME:",newname)
-                        newfullpath = os.path.join(path, newname)
-                        os.rename(fullpath, newfullpath)
+                if newname[-5] == ' ': # if there's a space before the extension, remove it
+                    newname = newname[:-5]+newname[-4:]
+                print("[*] NEW NAME:",newname)
+                newfullpath = os.path.join(path, newname)
+                os.rename(fullpath, newfullpath)
             else: print(errormsg) # if filename contains only ".pdf" (no title)
         else: print(errormsg) # if no title
     except Exception: # if other problem
