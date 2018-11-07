@@ -1,5 +1,5 @@
-# python3-scripts
-Various python 3 scripts:
+# python3-programs
+Various python 3 programs:
 
 *multi-download.py* :
 Downloads all files of a specified extension from an html webpage.
@@ -10,3 +10,6 @@ Renames every PDF file in a given directory, according to the title provided in 
 
 *copy_jpg_mp4.py* :
 Copies all the jpg and mp4 files of a directory to the ./Copies subdirectory.
+
+*EditDistance.py* :
+An implementation of the Edit Distance algorithm. More info here: https://vpapg.github.io/2018-11-07.html
