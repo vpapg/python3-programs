@@ -12,4 +12,4 @@ Renames every PDF file in a given directory, according to the title provided in 
 Copies all the jpg and mp4 files of a directory to the ./Copies subdirectory.
 
 *EditDistance.py* :
-An implementation of the Edit Distance algorithm. More info here: https://vpapg.github.io/2018-11-07.html
+An implementation of the Edit Distance algorithm. More info here: https://vpapg.github.io/posts/2018-11-07.html
