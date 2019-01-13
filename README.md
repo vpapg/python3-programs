@@ -13,3 +13,6 @@ Copies all the jpg and mp4 files of a directory to the ./Copies subdirectory.
 
 *EditDistance.py* :
 An implementation of the Edit Distance algorithm. More info here: https://vpapg.github.io/posts/2018-11-07.html
+
+*tfidf_austen.py* :
+It calculates the tf, df, idf, cf, tf.idf of given words and texts (texts used: Jane Austen's books included in the Gutenberg corpus of the NLTK module).
